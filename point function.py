@@ -3,7 +3,7 @@ class pointeyy:
         self.x=x
         self.y=y
 
-    def __string__(self):
+    def __str__(self):
         return "({0}, {1})".format(self.x, self.y)
     
 position1= pointeyy(2,3)
